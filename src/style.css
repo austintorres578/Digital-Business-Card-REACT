@@ -1,0 +1,111 @@
+body{
+    margin: 0px;
+    background-color: #23252C;
+    font-family: inter;
+}
+.card-container{
+    background-color: #1A1B21;
+    border-radius: 20px;
+    text-align: center;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.image-container img{
+    border-radius: 10px 10px 0 0;
+    height: 275px;
+    width: auto;
+}
+.name{
+    font-size: 25px;
+    color: white;
+    margin: 10px 0px 10px 0px;
+}
+.job-title{
+    margin: 10px 0px 10px 0px;
+    color: #F3BF99;
+    font-size: 12.8px;
+}
+.portfolio{
+    margin: 10px 0px 10px 0px;
+    font-size: 10.24;
+    margin: 10px 0px 10px 0px;
+}
+.portfolio a{
+    color: white;
+}
+
+.email-button{
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    background-color: white;
+    border: none;
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+    width: 80%;
+    color: black;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.email-button img{
+    height: auto;
+    width: 25px;
+    margin-right: 5px;
+}
+.email-button p{
+    margin: 0px;
+}
+.about-section{
+    color: white;
+    padding: 0px 15px 15px 15px;
+}
+.about-section h2{
+    text-align: left;
+    padding-left: 30.492px;
+}
+.about-section p{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    color: #DCDCDC;
+    text-align: left;
+    width: 300px;
+}
+.interests-section{
+    color: white;
+    padding: 0px 15px 15px 15px;
+}
+.interests-section h2{
+    text-align: left;
+    padding-left: 30.492px;
+}
+.interests-section p{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    color: #DCDCDC;
+    text-align: left;
+    width: 300px;
+}
+.footer-container{
+    background-color: #161619;
+    border-radius: 0px 0px 20px 20px;
+    padding: 5px;
+}
+.footer-container button{
+    cursor: pointer;
+    background-color: gray;
+    border: none;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.footer-container button img{
+    height: 50px;
+    width: auto;
+}
